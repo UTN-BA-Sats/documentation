@@ -9,7 +9,7 @@ topnav_title: UTN Cubesat PID
 site_title: UTN Cubesat PID Documentaci+on
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Lab. Control Digital - UTN.BA (2022)
+company_name: Lab. Control Digital - UTN.BA
 # this appears in the footer
 
 github_editme_path: https://github.com/UTN-BA-Sats/documentation/tree/main
@@ -71,7 +71,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
@@ -91,7 +91,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true
+      comments: false
       # if you don't want to use Commento.io and just hide comments, change true to false wherever you see the comments property
       search: true
       sidebar: home_sidebar
