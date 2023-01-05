@@ -36,7 +36,12 @@ Con respecto a los testbench (TB), se utilizará cocotb como el framework princi
     * `cocotb-config --version`
 
 1. Instalar GTKWave (Visualizador):
-    * `sudo apt-get install gtkwave -y`
+    1. Si está en **windows**, se recomienda instalar la [versión de windows!](https://sourceforge.net/projects/gtkwave/files/gtkwave-3.3.100-bin-win64/). Prestar atención al archivo, se debe llamar _gtkwave-3.3.100-bin-win64_.
+        * Recomendación: Agregar 'gtkwave/bin/' a la veriable de entorno PATH para poder accederlo con el comando 'gtkwave'.
+    1. Si está en linux puede instalarlo como:
+        * `sudo apt-get install gtkwave -y`
+
+
 
 **Troubleshooting**:
 
