@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: UTN-BA-Sats/documentation
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -12,7 +12,7 @@ site_title: UTN Cubesat PID Documentaci+on
 company_name: Lab. Control Digital - UTN.BA
 # this appears in the footer
 
-github_editme_path: https://github.com/UTN-BA-Sats/documentation/tree/main
+# github_editme_path: https://github.com/UTN-BA-Sats/documentation/tree/main
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 # gitlab_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
@@ -33,7 +33,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: Jekyll documentation theme
+feedback_subject_line: UTN-Sats PID documentation site
 
 feedback_email: lliano@frba.utn.edu.com
 # used as a contact email for the Feedback link in the top navigation bar
@@ -101,10 +101,10 @@ defaults:
 
 sidebars:
 - home_sidebar
-- mydoc_sidebar
+- help_sidebar
+- fpga_workflow_sidebar
 - product1_sidebar
 - product2_sidebar
-- other
 
 description: "Documentación oficial del PID de Cubesats en UTN.BA."
 # the description is used in the feed.xml file

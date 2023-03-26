@@ -1,18 +1,26 @@
-# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+# Home sidebar
 
 entries:
 - title: Sidebar
+  product: Contenidos
   levels: one
   folders:
-
-  - title: Products
+  
+  - title: Proyecto de Investigación
     output: web
     folderitems:
-    - title: News
-      url: /news.html
+    - title: Introducción
+      url: /index.html
       output: web
-    - title: Theme instructions
-      url: /mydoc_introduction.html
+    - title: ¿Quiénes somos?
+      url: /pid_quienes_somos.html
+      output: web
+
+  - title: Productos
+    output: web
+    folderitems:
+    - title: FPGA Workflow
+      url: /fpga_intro_design.html
       output: web
     - title: Product 1
       url: /p1_landing_page.html
@@ -20,5 +28,12 @@ entries:
     - title: Product 2
       url: /p2_landing_page.html
       output: web
+
+  - title: Help
+    output: web
+    folderitems:
+      - title: Help
+        url: /help_docs.html
+        output: web
 
 # Copyright 2021 Google LLC

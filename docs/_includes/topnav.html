@@ -56,7 +56,6 @@
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->
-                    <!-- ESTA BUGGEADO.. En el search.json Falla. -->
                     <!-- <div id="search-demo-container">
                         <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
                         <ul id="results-container"></ul>
@@ -66,7 +65,7 @@
                             SimpleJekyllSearch.init({
                                 searchInput: document.getElementById('search-input'),
                                 resultsContainer: document.getElementById('results-container'),
-                                dataSource: '{{ site.base_url }}/assets/search.json',
+                                dataSource: '{{ "search.json" }}',
                                 searchResultTemplate: '<li><a href="{url}" title="{{page.title | escape }}">{title}</a></li>',
                     noResultsText: '{{site.data.strings.search_no_results_text}}',
                             limit: 10,
@@ -81,3 +80,4 @@
         <!-- /.container -->
 </nav>
 
+{% comment %} Copyright 2021 Google LLC {% endcomment %}

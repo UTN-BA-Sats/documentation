@@ -1,0 +1,19 @@
+# Esta es la configuración del sidebar principal.
+# Acá se puede configurar cuales van a ser las opciones disponibles.
+
+
+entries:
+- title: Sidebar
+  product: Contenidos
+  levels: one
+  folders:
+
+  - title: Help
+    output: web
+    folderitems:
+    - title: ¿Cómo documentar?
+      url: /help_docs.html
+      output: web
+    - title: empty_example
+      url: /help_empty_example.html
+      output: web

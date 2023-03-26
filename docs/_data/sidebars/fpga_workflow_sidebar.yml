@@ -1,0 +1,16 @@
+
+entries:
+- title: FPGA Workflow
+  levels: one
+  folders:
+
+  - title: Diseño Digital
+    output: web
+    folderitems:
+    - title: Introducción al Diseño Digital
+      url: /fpga_intro_design.html
+      output: web
+    - title: Herramientas de desarrollo en FPGAs
+      url: /fpga_herramientas.html
+      output: web
+      
