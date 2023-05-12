@@ -148,8 +148,8 @@ Enchufamos la placa EDU CIAA - FPGA y ejecutamos:
 sudo iceprog ledtest.bin
 ```
 
-Y si salio todo bien, deberiamos ver el contador binario en los leds de la FPGA!!\\
+Y si salio todo bien, deberiamos ver el contador binario en los leds de la FPGA!!  
 ![gif-fpga](../../images/fpga_test_counter.gif)
 
-Para referencia, incluyo un grafico de como es el flujo de trabajo con este toolchain\\
+Para referencia, incluyo un grafico de como es el flujo de trabajo con este toolchain  
 ![workflow-fpga](../../images/fpga_workflow_grafico.png)
