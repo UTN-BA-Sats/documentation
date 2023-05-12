@@ -70,7 +70,7 @@ make
 sudo make install
 ```
 
-Verificamos que se haya instalado bine el ghdl:
+Verificamos que se haya instalado bien el ghdl:
 
 ```
 ghdl --version
@@ -109,7 +109,6 @@ git clone https://github.com/cliffordwolf/icestorm.git icestorm
 cd icestorm
 make -j<nproc>
 sudo make install
-
 ```
 
 Nuevamente, reemplazar `<nproc>` segun lo explicado mas arriba.
@@ -120,13 +119,13 @@ Nuevamente, reemplazar `<nproc>` segun lo explicado mas arriba.
 
 Para probar si funciona todo, vamos a compilar un archivo de testeo que va a hacer parpadear los leds de la placa de manera progresiva, al estilo de un contador binario.
 
-Clonamos el repo de cores
+Clonamos el repo de cores:
 
 ```
 git clone https://github.com/UTN-BA-Sats/cores.git
 ```
 
-Buscamos el test de leds
+Buscamos el test de leds:
 
 ```
 cd cores/rtl/examples/ledtest/
@@ -150,11 +149,7 @@ sudo iceprog ledtest.bin
 ```
 
 Y si salio todo bien, deberiamos ver el contador binario en los leds de la FPGA!!
+![gif-fpga](../../images/fpga_test_counter.gif)
 
 Para referencia, incluyo un grafico de como es el flujo de trabajo con este toolchain
 ![workflow-fpga](../../images/fpga_workflow_grafico.png)
-
-
-
-
-
