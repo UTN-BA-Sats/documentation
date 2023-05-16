@@ -13,4 +13,10 @@ entries:
     - title: Herramientas de desarrollo en FPGAs
       url: /fpga_herramientas.html
       output: web
+    - title: Instalación de Toolchain para trabajar con la FPGA
+      url: /fpga_linux_vhdl_yosys.html
+      output: web
+    - title: Archivo de constraints (Restricciones) del PNR
+      url: /fpga_linux_vhdl_yosys.html
+      output: web
       
